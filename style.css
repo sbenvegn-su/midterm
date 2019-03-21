@@ -1,0 +1,150 @@
+@keyframes top{
+    from{background-color:#F1128A}
+    to{background-color:#75D5EA}
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container-fluid{
+    position:relative;
+
+}
+
+.navbar{
+    background-color: #F1128A;
+    color:#ffffff;
+    font-weight:400;
+    animation-name: top;
+    animation-duration: 3s;
+    
+}
+.navbar-brand{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav-link:hover{
+    color:#000000;
+  
+    
+}
+
+.top-pic{
+    background:url(top.jpg) no-repeat center bottom;
+    background-size: cover;
+    height:600px;
+    color: #000000;
+    font-weight:600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:100px;
+}
+.top-pic:hover{
+    color:#ffffff;
+    transition-duration: 2s;
+    transition-property: color;
+
+}
+
+.about{
+    background-color: #9F999C;
+    padding:20px;
+    color:#ffffff;
+    text-align: center;
+    
+}
+.topcard{
+    color:#9F999C;
+    padding:20px;
+    font-weight:600;
+    font-size:50px;
+    display: flex;
+    justify-content: center;
+}
+.readmore{
+    color:#F1128A;
+    font-size: 15px;
+    text-align: right;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.readmore:hover{
+    color:#000000;
+    transition-duration: 2s;
+    transition-property: color;
+}
+
+.greycontainer{
+    background-color: #9F999C;
+    color:#000000;
+    padding:20px;
+    margin-top:40px;
+    
+}
+
+.flex{
+    display:flex;
+    justify-content: space-around;
+    padding-left:200px;
+}
+.bread{
+    position:absolute;
+}
+.foodtour{
+    position: relative;
+    bottom:40px;
+    left:10px;
+    color:#000000;
+    font-size:20px;
+}
+.foodtext{
+    padding-left:40px;
+    padding-top:20px;
+    text-align: center;
+}
+.rowone{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.pictext{
+    position: relative;
+    color:#ffffff;
+    bottom:50px;
+    left:20px;
+    font-size:30px;
+}
+.pic{
+    border: 4px solid #9F999C;
+    height:565px;
+    border-radius:10px;
+    box-shadow: 0px 5px 10px #9F999C;
+}
+.gallery{
+    padding:30px;
+}
+
+.contact{
+    margin:30px;
+}
+
+.footer{
+    background-color: #F8E111;
+    margin-top:30px;
+    padding:20px;
+    text-align: center;
+}
+.footertext{
+   color: #3C393B;
+   font-size:35px;
+   font-weight:500;
+}
